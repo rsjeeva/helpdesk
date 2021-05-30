@@ -1,6 +1,12 @@
 *{
     margin: 0;
 }
+/* 
+body{
+    background-image: url(./images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 a:link, a:visited{
     text-decoration: none;
@@ -16,20 +22,20 @@ a:link, a:visited{
 .sp_one{
     font-size: 2rem;
     outline: none;
-    color: black;
+    color: white;
 }
 
 .sp_two
 {
-    color: rgb(110, 88, 172);
+    color: #D2E388;
     font-weight: bold;
-    animation: spann;
+    /* animation: spann;
     animation-timing-function: ease-in-out;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
-@keyframes spann {
+/* @keyframes spann {
 
     from{
         color:rgb(110, 88, 172);
@@ -38,7 +44,7 @@ a:link, a:visited{
         color: rgb(55, 214, 201);
     }
     
-}
+} */
 
 
 
@@ -56,7 +62,7 @@ a:link, a:visited{
 }
 
 .dot1{
-    background-color: rgb(27, 61, 134);
+    background-color: rgb(243, 234, 234);
 }
 .dot2{
     background-color: rgb(241, 239, 85);    
@@ -71,7 +77,8 @@ a:link, a:visited{
 
 #head{
     height: 20vh;
-    background-image: linear-gradient(to right, rgb(223, 230, 127), rgb(120, 221, 221));
+    background-color: rgba(29, 11, 53, 0.76);
+    /* background-image: linear-gradient(to right, rgb(223, 230, 127), rgb(120, 221, 221)); */
 }
 
 #sec1{
@@ -80,7 +87,8 @@ a:link, a:visited{
 
 #foot1{
     height: 10vh;
-    background-image: linear-gradient(to right, rgb(223, 230, 127), rgb(120, 221, 221));
+    background-color: rgba(29, 11, 53, 0.76);
+    /* background-image: linear-gradient(to right, rgb(223, 230, 127), rgb(120, 221, 221)); */
 }
 
 /* section css */
@@ -101,20 +109,25 @@ a:link, a:visited{
     height: 100%;
 }
 
-h3{
+.info{
     color: black;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-style: normal;
+}
+
+.info span{
+    color: #534565;
 }
 
 
 /* foot css */
 
 i{
-    color: #6E58AC;
+    color: #91af25;
 }
 
 div p{
-    color: black;
+    color: white;
 }
 
 
@@ -123,6 +136,20 @@ div p{
     #sec1{
         height: 90vh;
     }
+}
+
+
+/* contact page */
+
+.tckt{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.cntc{
+    font-size:1.5rem;
+    color: white;
 }
 
 @media only screen and (max-width:575px)
@@ -136,15 +163,3 @@ div p{
     }
 }
 
-/* contact page */
-
-.tckt{
-    font-size: 1.5rem;
-    color: black;
-}
-
-
-.cntc{
-    font-size:1.5rem;
-    color: black;
-}
