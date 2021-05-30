@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    outline: none;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.sp_one{
+    font-size: 2rem;
+    outline: none;
+    color: black;
+}
+
+.sp_two
+{
+    color: rgb(110, 88, 172);
+    font-weight: bold;
+    animation: spann;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spann {
+
+    from{
+        color:rgb(110, 88, 172);
+    }
+    to{
+        color: rgb(55, 214, 201);
+    }
+    
+}
+
+
+
+.dots{
+    display: flex;
+    justify-content: center;
+}
+
+.dot1, .dot2, .dot3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 5px;
+}
+
+.dot1{
+    background-color: rgb(27, 61, 134);
+}
+.dot2{
+    background-color: rgb(241, 239, 85);    
+}
+.dot3{
+    background-color: rgb(9, 105, 60);
+}
+
+
+
+/*HEIGHT DEFINITION*/
+
+#head{
+    height: 20vh;
+    background-image: linear-gradient(to right, rgb(223, 230, 127), rgb(120, 221, 221));
+}
+
+#sec1{
+    height: 70vh;
+}
+
+#foot1{
+    height: 10vh;
+    background-image: linear-gradient(to right, rgb(223, 230, 127), rgb(120, 221, 221));
+}
+
+/* section css */
+
+#ticket_img, #contact_img{
+    border: none;
+}
+
+#col_1
+{
+    width: 100%;
+    height: 100%;
+}
+
+#col_2
+{
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    color: black;
+    font-size: 2rem;
+}
+
+
+/* foot css */
+
+i{
+    color: #6E58AC;
+}
+
+div p{
+    color: black;
+}
+
+
+@media only screen and (max-width:768px)
+{
+    #sec1{
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width:575px)
+{
+    #sec1{
+        height: 100vh;
+    }
+
+    #foot1{
+        height: 15vh;
+    }
+}
+
+/* contact page */
+
+.tckt{
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+.cntc{
+    font-size:1.5rem;
+    color: black;
+}
